@@ -33,10 +33,8 @@ Run the `helm init` command to make sure you also have the Tiller server install
    ```bash
    git clone https://github.com/opendistro-for-elasticsearch/opendistro-build
    ```
-   If it's used in production environment, the release tag can be chosen, e.g:
-   ```bash
-   git clone -b v1.8.0 https://github.com/opendistro-for-elasticsearch/opendistro-build
-   ```
+   You can also get the specific version with release tag, e.g. v1.7.0 and v1.8.0
+   
 1. Change to the `opendistro-es` directory:
 
    ```bash
